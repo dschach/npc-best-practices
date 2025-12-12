@@ -10,8 +10,9 @@ has_children: false
 ### [Stakeholder Management Templates & Packages](https://sfdo-community-sprints.github.io/npc-best-practices/stakeholder-management/templates_and_packages/)
 
 ### Fundraising Templates & Packages
+
 Coming Soon!
 
 ### Program and Case Management Templates & Packages
-Coming Soon!
 
+Coming Soon!

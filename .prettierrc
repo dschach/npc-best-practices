@@ -6,11 +6,9 @@
   "experimentalTernaries": true,
   "printWidth": 180,
   "singleAttributePerLine": false,
-  "singleQuote": true,
   "tabWidth": 2,
   "trailingComma": "none",
   "useTabs": false,
-  "xmlSelfClosingSpace": true,
   "overrides": [
     {
       "files": "*.{yml,yaml}",
@@ -38,6 +36,12 @@
       "options": {
         "parser": "json",
         "printWidth": 80
+      }
+    },
+    {
+      "files": "*.html",
+      "options": {
+        "singleQuote": false
       }
     }
   ],

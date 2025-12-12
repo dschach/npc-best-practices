@@ -44,3 +44,6 @@ out
 
 # CumulusCI
 /test_results.*
+
+package-lock.json
+package.json

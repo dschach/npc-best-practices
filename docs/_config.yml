@@ -13,13 +13,27 @@ color_scheme: light
 
 # Set a path/url to a logo that will be displayed instead of the title
 
-
-
-doc_root: 'https://sfdo-community-sprints.github.io/npc-best-practices/docs'
-site_root: 'https://sfdo-community-sprints.github.io/npc-best-practices'
+doc_root: "https://sfdo-community-sprints.github.io/npc-best-practices/docs"
+site_root: "https://sfdo-community-sprints.github.io/npc-best-practices"
 
 permalink: pretty
-exclude: [ "node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "README.md", "Rakefile", "docs/tests/" ]
+exclude:
+  [
+    "node_modules/",
+    "*.gemspec",
+    "*.gem",
+    "Gemfile",
+    "Gemfile.lock",
+    "package.json",
+    "package-lock.json",
+    "script/",
+    "LICENSE.txt",
+    "lib/",
+    "bin/",
+    "README.md",
+    "Rakefile",
+    "docs/tests/"
+  ]
 
 # Enable or disable the site search
 # Supports true (default) or false
@@ -81,7 +95,7 @@ compress_html:
   clippings: all
   comments: all
   endings: all
-  startings: [ ]
+  startings: []
   blanklines: false
   profile: false
   # ignore:
